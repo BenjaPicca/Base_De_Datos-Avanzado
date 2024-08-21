@@ -1,0 +1,36 @@
+Clase 21/8
+
+Autenticación
+
+Cors=Requests que podemos hacer desde otros origenes que no son el origen de nuestro servidor.
+
+No nos jode ahora por que hacemos todo Local
+
+Cuando subamos nuestras API en vercel si no esta una linea especifica no va a andar. 
+
+Para poner los origenes que vas a querer que tengan acceso vas hacer un archivo con una lista de los origenes aceptados,
+los demás serán bloqueados.
+
+Hash
+
+Para que sitio sea mas seguro se agarra la contraseña se pasa por una función y me devuelve Hash. Una vez llegado a esta 
+Devolución no se va a poder volver.
+
+El Hash es lo que se guarda en la base de datos, vos te logeas con la contraseña y luego pasa por la función y va a dar
+el Hash.
+
+Encriptación simétrica 
+
+Hay una llave que encripta y otra que desencripta
+
+Lo vamos a ver para firmar cosas principalmente.
+
+
+Enciptación Asimétrica
+
+2 Claves una pública y una privada 
+
+Si encrptas con una clave te da un dato y podes desencriptar con la otra y biseversa
+__________________________________________________________________________________________________________________________
+
+Clase 26/8
