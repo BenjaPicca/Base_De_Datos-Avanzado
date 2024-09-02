@@ -1,0 +1,16 @@
+POST http://localhost:3000/hash HTTP/1.1
+Content-Type: application/json
+
+{
+    "password": "Setto"
+}
+
+###
+
+POST http://localhost:3000/hash HTTP/1.1
+Content-Type: application/json
+
+{
+    "password": "Setto",
+    "hash": ""
+}
