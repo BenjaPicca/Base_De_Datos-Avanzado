@@ -43,3 +43,26 @@ Clase 28/8
 Repaso clase 21/8
 
 Jugamos Rsa-Game
+__________________________________________________________________________________________________________________________
+
+Clase 2/9
+https://www.npmjs.com/package/bcrypt?activeTab=readme 
+
+bcrypt:libreria la cual vamos a usar para generar Hash
+3 funciones generateSalt/encrypt/compare
+__________________________________________________________________________________________________________________________
+
+Clase 4/9
+
+Empezamos a ver Jwt
+
+Base 64
+
+Headers(Alg:'SH256').________.Payload{id:15}._______Firma
+
+Vamos encriptar el contenido y vamos a guardar la firma en el token que sería el PayLoad (Contiene un objeto) encriptado
+En los Headers vamos a definir el tipo de encripción
+Se genera un token cuando te logeas. Y si expira te deslogea.
+PayLoad solo info pública.
+
+CLiente-> hace log-in->Serv-> chequea->verifica pass y firma token
